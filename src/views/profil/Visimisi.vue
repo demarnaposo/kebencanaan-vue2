@@ -40,7 +40,9 @@
                 
                 <span class="subtitle">Visi & Misi Badan Penanggulangan Bencana Daerah Kota Bogor</span>
                 <h2 class="heading-title"></h2>
+                <div class="flex justify-center">
                 <img :src="'https://dev-kebencanaan.kotabogor.go.id/admin/uploads/profilbpbd/' + data[2].gambar" alt="struktur-organisasi">
+                </div>
                 <p class="description">
                   <div v-html="data[2].isi">
 

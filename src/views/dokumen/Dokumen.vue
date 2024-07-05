@@ -1,10 +1,10 @@
 <template>
     <div>
       <!-- Start Header Area -->
-      <Header>
+      <HeaderOnePage>
         <img slot="logo" :src="logoLight" class="logo-light" />
       <img slot="logo-dark" :src="logoDark" class="logo-dark" />
-      </Header>
+      </HeaderOnePage>
       <!-- End Header Area -->
   
       <!-- Start Breadcrump Area  -->
@@ -81,9 +81,10 @@
   </template>
   
   <script>
-    import Header from "../../components/header/Header";
+    import HeaderOnePage from "../../components/header/HeaderOnePage";
     import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
     import PortfolioFour from "../../components/portfolio/PortfolioFour";
+    import Pagination from "../../components/pagination/Pagination";
     import Portfolio from "../../components/portfolio/Portfolio";
     import Footer from "../../components/footer/Footer";
 
@@ -151,11 +152,12 @@
             }
         },
       components: {
-        Header,
+        HeaderOnePage,
         PortfolioTwo,
         PortfolioFour,
         Portfolio,
         Footer,
+        
       },
       data() {
         return {

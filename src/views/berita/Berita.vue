@@ -17,10 +17,10 @@
           <v-col lg="12">
             <div class="breadcrumb-inner pt--100">
               <h2 class="heading-title">Berita Terkini</h2>
-              <ul class="page-list">
+              <!-- <ul class="page-list">
                 <li><router-link to="/">Home</router-link></li>
                 <li class="current-page">Berita</li>
-              </ul>
+              </ul> -->
             </div>
           </v-col>
         </v-row>
@@ -45,13 +45,13 @@
 <script>
 import Header from "../../components/header/Header";
 import BlogThree from "../../components/blog/BlogThree";
-import Pagination from "../../components/pagination/Pagination";
+// import Pagination from "../../components/pagination/Pagination";
 import Footer from "../../components/footer/Footer";
 export default {
   components: {
     Header,
     BlogThree,
-    Pagination,
+    // Pagination,
     Footer,
   },
   data() {

@@ -39,7 +39,9 @@
               <div class="section-title text-center mb--10">
                 <span class="subtitle">{{data[0].judul}}</span>
                 <h2 class="heading-title"></h2>
+                <div class="flex justify-center">
                 <img :src="'https://dev-kebencanaan.kotabogor.go.id/admin/uploads/profilbpbd/' + data[0].gambar" style="border-radius: 25%" width="200" alt="">
+              </div>
                 <p class="description">
                   <div v-html="data[0].isi">
 

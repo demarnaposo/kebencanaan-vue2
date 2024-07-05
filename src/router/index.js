@@ -14,6 +14,15 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    name: 'Landing',
+    meta: {
+      title: 'Landing Page BPBD Kota Bogor',
+    },
+    component: () =>
+      import('../views/landing/Home.vue'),
+  },
+    {
+    path: '/website-sdk',
     name: 'SatuDataKebencanaan',
     meta: {
       title: 'Satu Data Kebencanaan Kota Bogor',

@@ -38,11 +38,13 @@
             <v-col lg="12">
               <div class="section-title text-center mb--10">
                 
-                <span class="subtitle"><div v-html="data[1].isi"></div></span>
+                <span class="subtitle"><div v-html="data[1].judul"></div></span>
                 <h2 class="heading-title"></h2>
+                <div class="flex justify-center">
                 <img :src="'https://dev-kebencanaan.kotabogor.go.id/admin/uploads/profilbpbd/' + data[1].gambar" alt="struktur-organisasi">
+              </div>
                 <p class="description">
-                  <div v-html="">
+                  <div v-html="data[1].isi">
 
                   </div>
                 </p>
